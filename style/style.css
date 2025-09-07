@@ -1374,6 +1374,7 @@ h2{
     flex-direction: column-reverse;
     transform: none;
     animation: none;
+    gap: 25px;
   }
 
   .vision_1{
@@ -1399,7 +1400,7 @@ h2{
     flex-direction: column;
     transform: none;
     animation: none;
-
+    gap: 25px;
   }
 
   .mision_1{
