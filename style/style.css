@@ -1558,7 +1558,7 @@ h2{
 
     width: 190px;
     height: 100px!important;
-    margin-left: 280px;
+    margin-left: 210px;
     margin-top: 460px;
 
 
@@ -1569,7 +1569,7 @@ h2{
 
      width: 290px;
     height: 300px!important;
-    margin-left: 200px;
+    margin-left: 180px;
     margin-top: 310px;
 
   }
@@ -1595,7 +1595,7 @@ h2{
   .titulo{
     width: 70%;
     padding-left: 50px;
-    font-size: 25px;
+    font-size: 22px;
   }
 
 }
