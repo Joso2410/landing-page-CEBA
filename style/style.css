@@ -1531,6 +1531,57 @@ h2{
 
 
   }
+
+
+  #btnArriba{
+    right: 12px!important;
+
+  }
+
+
+
+  .texto_slider{
+
+    flex-direction: column;
+
+  }
+
+  .texto_slider_style_1{
+
+    width: 290px;
+    height: 300px!important;
+
+  }
+
+
+  .texto_slider_style_3{
+
+    width: 190px;
+    height: 100px!important;
+    margin-left: 280px;
+    margin-top: 460px;
+
+
+  }
+
+
+  .forma_circulo{
+
+     width: 290px;
+    height: 300px!important;
+    margin-left: 200px;
+    margin-top: 310px;
+
+  }
+
+
+  
+.carousel-item{
+    height: 800px;
+ 
+}
+
+  
 }
 
 
