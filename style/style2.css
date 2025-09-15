@@ -85,7 +85,7 @@
     display: flex;
     flex-direction: column;
     padding: 100px 0px 100px 0px;
-
+    
 
 }
 
@@ -93,7 +93,7 @@
 .caja_modalidad_img{
 
     display: flex;
-    width: 26rem;
+    width: 90%;
     height: 300px;
     overflow: hidden;
 
@@ -105,7 +105,29 @@
     padding: 10px;
     flex-direction: column;
     width: 85%;
-
+    font-size: 1rem;
 }
+
+
+
+.quienes_somos_completo_caja{
+
+    padding: 100px 40px 100px 40px;
+    font-size: 1rem;
+}
+
+.vision_completo_caja{
+
+    padding: 100px 40px 100px 40px;
+    font-size: 1rem;
+}
+
+
+.mision_completo_caja{
+
+    padding: 100px 40px 100px 40px;
+    font-size: 1rem;
+}
+
 
   }
