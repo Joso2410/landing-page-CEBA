@@ -1361,6 +1361,7 @@ h2{
   .quienessomos_1{
 
     padding: 50px 50px 50px 50px;
+    height: auto;
 
   }
 
@@ -1721,3 +1722,4 @@ h2{
        color: rgb(235, 235, 235);
 
     }
+
