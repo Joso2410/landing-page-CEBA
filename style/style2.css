@@ -1,3 +1,17 @@
+
+p{
+
+    border-left: groove;
+    padding-left: 10px;
+
+}
+
+h2{
+
+    text-align: initial!important;
+
+}
+
 .quienes_somos_completo_caja{
 
     display: flex;
