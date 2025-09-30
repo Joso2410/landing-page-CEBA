@@ -112,7 +112,8 @@
 
 .quienes_somos_completo_caja{
 
-    padding: 100px 40px 100px 40px;
+    padding: 100px 30px 100px 30px;
+    gap: 10px;
     font-size: 1rem;
 }
 
