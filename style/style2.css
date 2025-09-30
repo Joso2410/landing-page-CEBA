@@ -1,0 +1,133 @@
+.quienes_somos_completo_caja{
+
+    display: flex;
+    flex-direction: column;
+    padding: 100px 150px 100px 150px;
+    background-color: white;
+    gap: 20px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.vision_completo_caja{
+
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px 100px 200px;
+    gap: 20px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../CEBA-CAPAZ-LOGO-FONDO.png');
+    background-blend-mode: multiply;
+    color: white;
+
+}
+
+
+.mision_completo_caja{
+
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px 100px 200px;
+    gap: 20px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../CEBA-CAPAZ-LOGO-FONDO.png');
+    background-blend-mode: multiply;
+    color: white;
+    
+}
+
+
+.modalidad_presencial_completo_caja{
+
+    display: flex;
+    flex-direction: row;
+    padding: 100px 150px 100px 150px;
+    background-color: white;
+    gap: 30px;
+    text-align: justify;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.caja_modalidad_img{
+
+    display: flex;
+    width: 500px;
+    height: 480px;
+    overflow: hidden;
+
+}
+
+
+.caja_modalidad_texto{
+
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+
+
+  @media (max-width: 920px) {
+
+.modalidad_presencial_completo_caja{
+
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px 100px 0px;
+    
+
+}
+
+
+.caja_modalidad_img{
+
+    display: flex;
+    width: 90%;
+    height: 300px;
+    overflow: hidden;
+
+}
+
+.caja_modalidad_texto{
+
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    width: 85%;
+    font-size: 1rem;
+}
+
+
+
+.quienes_somos_completo_caja{
+
+    padding: 100px 40px 100px 40px;
+    font-size: 1rem;
+}
+
+.vision_completo_caja{
+
+    padding: 100px 40px 100px 40px;
+    font-size: 1rem;
+}
+
+
+.mision_completo_caja{
+
+    padding: 100px 40px 100px 40px;
+    font-size: 1rem;
+}
+
+
+  }
