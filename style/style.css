@@ -437,7 +437,6 @@ h2{
     flex-direction: column;
     padding: 30px;
     text-align: justify;
-    
     opacity: 0; /* Inicia invisible */
     transform: translateX(120px); /* Empieza fuera de la pantalla a la izquierda */
  
@@ -1407,7 +1406,7 @@ h2{
 
   .vision_img{
 
-    width: 95%;
+    width: 92%;
     transform: none!important;
     animation: none!important;
     opacity: 1;
@@ -1436,7 +1435,7 @@ h2{
 
   .mision_img{
 
-    width: 95%;
+    width: 92%;
     transform: none!important;
     animation: none!important;
     opacity: 1;
@@ -1749,3 +1748,4 @@ h2{
        color: rgb(235, 235, 235);
 
     }
+
