@@ -1646,13 +1646,22 @@ h2{
   .titulo{
     width: 70%;
     padding-left: 50px;
-    font-size: 12px;
+    font-size: 20px;
   }
 
 }
 
 
 
+  @media (max-width: 490px) {
+
+  .titulo{
+    width: 70%;
+    padding-left: 50px;
+    font-size: 15px;
+  }
+
+}
 
 
 
@@ -1763,7 +1772,4 @@ h2{
        color: rgb(235, 235, 235);
 
     }
-
-
-
 
