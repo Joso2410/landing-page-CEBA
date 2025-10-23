@@ -1,0 +1,252 @@
+/* Estilos para el logo */
+.logo-img {
+  margin-top: 10px;
+}
+
+/* Estilos para íconos de navegación */
+.nav-icon {
+  margin-right: 8px;
+  font-size: 12px;
+}
+
+.nav-caret {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+/* Estilos para el ícono de handshake en el submenú */
+.submenu-handshake {
+  margin-left: 8px;
+}
+
+/* Estilos para íconos de submenú */
+.submenu-angle {
+  margin-right: 8px;
+  margin-left: 10px;
+}
+
+.submenu-icon {
+  margin-left: 8px;
+}
+
+/* Estilos para el ícono de WhatsApp */
+.nav-whatsapp {
+  margin-right: 8px;
+}
+
+/* Estilos para la etiqueta de redes sociales */
+.social-label {
+  color: white;
+  margin-left: 8px;
+  margin-right: 5px;
+}
+
+/* Estilos para íconos de redes sociales */
+.social-facebook,
+.social-instagram,
+.social-tiktok {
+  margin-left: 5px;
+}
+
+/* Estilos para íconos del panel lateral */
+.panel-home,
+.panel-book {
+  margin-right: 8px;
+}
+
+.panel-caret {
+  margin-left: 10px;
+}
+
+.panel-angle {
+  margin-right: 8px;
+}
+
+
+/* Estilos para los íconos de graduado en el slider */
+.slider-icon-graduate {
+  margin-right: 8px;
+}
+
+/* Estilos para los íconos de flecha en el slider */
+.slider-icon-arrow {
+  margin-left: 8px;
+}
+
+/* Estilos para el texto destacado de CEBA-UCV */
+.ceba-highlight {
+  color: #ff5555;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+
+/* Estilo para el ícono de mano sosteniendo corazón */
+.hand-holding-icon {
+  margin-right: 10px;
+}
+
+/* Estilo para el ícono de handshake */
+.handshake-icon {
+  margin-left: 8px;
+}
+
+
+/* Estilo para el ícono de "Más" en los enlaces */
+.mas-icon {
+  margin-right: 8px;
+}
+
+/* Estilo para el título del programa */
+.programa-title {
+  color: white !important;
+}
+
+/* Estilo para el ícono de sonrisa en el título */
+.programa-icon {
+  margin-right: 10px;
+}
+
+/* Estilo para el video */
+.programa-video {
+  width: 95%;
+  height: 95%;
+}
+
+
+/* Estilo para el ícono de libro en el título */
+.book-icon {
+  margin-right: 10px;
+}
+
+/* Estilo para el ícono de flecha en los enlaces de modalidades */
+.bracket-icon {
+  margin-left: 5px;
+}
+
+
+/* Estilos para Cuadro_general_niveles */
+.nivel-link {
+  color: black !important;
+}
+
+.nivel-icon {
+  margin-right: 10px;
+}
+
+/* Estilos para Cuadro_genral_cedes_ceba */
+.typed-title {
+  color: white !important;
+  text-align: center;
+}
+
+.sedes-icon {
+  margin-right: 10px;
+}
+
+.sedes-subtitle {
+  color: white !important;
+  text-align: center;
+}
+
+.sedes-angle-right {
+  margin-right: 8px;
+}
+
+.sedes-angle-left {
+  margin-left: 8px;
+}
+
+.card-caracas {
+  background-image: url('../UCV.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(32, 49, 112, 0.825);
+  background-blend-mode: multiply;
+}
+
+.card-anzoategui {
+  background-image: url('../CEDE_ANZOATEGUI.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(32, 49, 112, 0.825);
+  background-blend-mode: multiply;
+}
+
+.card-nueva-esparta {
+  background-image: url('../CEDE_NUEVAESPARTA.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(32, 49, 112, 0.825);
+  background-blend-mode: multiply;
+}
+
+.card-maracay {
+  background-image: url('../CEDE_MARACAY.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(32, 49, 112, 0.825);
+  background-blend-mode: multiply;
+}
+
+/* Estilos para cuadro_general_graduados */
+.graduados-title {
+  color: rgb(11, 11, 11) !important;
+  text-align: center;
+}
+
+.graduados-icon {
+  margin-right: 10px;
+}
+
+.concepto_img_promo {
+  color: rgb(11, 11, 11) !important;
+  text-align: justify;
+  padding: 0 220px;
+}
+
+.promo-text {
+  color: #f25356;
+}
+
+.graduados-img-1 {
+  background-image: url('../IMG_4884.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.graduados-img-2 {
+  background-image: url('../IMG_4885.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.graduados-img-3 {
+  background-image: url('../IMG_4907.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.graduados-img-4 {
+  background-image: url('../IMG_4830.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none !important;
+}
+
+.ver-mas-icon {
+  margin-left: 5px;
+}
+
+/* Estilos para cuadro_general_frecuente_de_pagina */
+.cuadro_general_frecuente_de_pagina {
+  background-image: url('../IMG_4830.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(32, 49, 112, 0.825);
+  background-blend-mode: multiply;
+}
+
+.footer-columns {
+  display: flex;
+}
