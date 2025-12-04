@@ -1,0 +1,346 @@
+
+p{
+
+    border-left: groove;
+    padding-left: 10px;
+
+}
+
+h2{
+
+    text-align: initial!important;
+
+}
+
+.quienes_somos_completo_caja{
+
+    display: flex;
+    flex-direction: column;
+    padding: 100px 150px 100px 150px;
+    background-color: white;
+    gap: 20px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.pensum_academico_completo_caja{
+
+    display: flex;
+    flex-direction: column;
+    padding: 100px 150px 0px 150px;
+    background-color: white;
+    text-align: justify;
+    justify-content: center;
+
+}
+
+.pensum_academico_completo_caja_2{
+
+    display: flex;
+    flex-direction: column;
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 45px;
+    background: #fff;
+    transition: max-height 0.2s ease, padding 0.3s;
+
+}
+
+.pensum_academico_completo_caja_3{
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px 150px 20px 150px;
+    background-color: white;
+    gap: 20px;
+    text-align: justify;
+    justify-content: center;
+    border-left: none!important;
+
+}
+
+
+.pensum_academico_completo_caja_3 p{
+
+   border-left: none!important;
+   padding-left: 0px;
+   margin-bottom: 0px!important;
+
+}
+
+
+
+
+.pensum_academico_completo_caja_2 p{
+
+   border-left: none!important;
+   padding-left: 0px;
+
+}
+
+
+.vision_completo_caja{
+
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px 100px 200px;
+    gap: 20px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../CEBA-CAPAZ-LOGO-FONDO.png');
+    background-blend-mode: multiply;
+    color: white;
+
+}
+
+
+.mision_completo_caja{
+
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px 100px 200px;
+    gap: 20px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../CEBA-CAPAZ-LOGO-FONDO.png');
+    background-blend-mode: multiply;
+    color: white;
+    
+}
+
+
+.modalidad_presencial_completo_caja{
+
+    display: flex;
+    flex-direction: row;
+    padding: 100px 150px 100px 150px;
+    background-color: white;
+    gap: 30px;
+    text-align: justify;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.caja_modalidad_img{
+
+    display: flex;
+    width: 500px;
+    height: 480px;
+    overflow: hidden;
+
+}
+
+
+.caja_modalidad_texto{
+
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+
+
+  @media (max-width: 920px) {
+
+.modalidad_presencial_completo_caja{
+
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px 100px 0px;
+    
+
+}
+
+
+.caja_modalidad_img{
+
+    display: flex;
+    width: 90%;
+    height: 300px;
+    overflow: hidden;
+
+}
+
+.caja_modalidad_texto{
+
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    width: 85%;
+    font-size: 1rem;
+}
+
+
+
+.quienes_somos_completo_caja{
+
+    padding: 100px 30px 100px 30px;
+    gap: 10px;
+    font-size: 1rem;
+}
+
+.pensum_academico_completo_caja{
+
+    padding: 100px 30px 20px 30px;
+    gap: 10px;
+    font-size: 1rem;
+
+}
+
+.pensum_academico_completo_caja_2{
+
+    gap: 10px;
+    font-size: 1rem;
+
+
+}
+
+.vision_completo_caja{
+
+    padding: 100px 40px 100px 40px;
+    font-size: 1rem;
+}
+
+
+.mision_completo_caja{
+
+    padding: 100px 40px 100px 40px;
+    font-size: 1rem;
+}
+
+
+
+.pensum_academico_completo_caja_3{
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px 20px 30px;
+    background-color: white;
+    gap: 20px;
+    text-align: justify;
+    justify-content: center;
+    border-left: none!important;
+
+}
+
+
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  input[type="checkbox"]:checked ~ .pensum_academico_completo_caja_2 {
+    max-height: 500px; /* altura del contenido desplegado */
+    padding: 30px 45px;
+  }
+
+
+
+ .niveles_y_escalas_caja_completa{
+
+    padding: 100px 30px 0px 30px!important;
+        
+  }
+    
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .acordeon-item {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  }
+
+  .acordeon-titulo {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background: rgb(32 49 112);
+    color: white;
+    cursor: pointer;
+    transition: background 0.1s;
+  }
+
+  .acordeon-titulo:hover {
+    background: rgb(44, 68, 154);
+  }
+
+
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  input[type="checkbox"]:checked ~ .pensum_academico_completo_caja_2 {
+    max-height: 1800px; /* altura del contenido desplegado */
+    padding: 30px 45px;
+  }
+
+
+
+
+  .niveles_y_escalas_caja_completa{
+
+    display: flex;
+    flex-direction: column;
+    padding: 100px 150px 0px 150px;
+    background-color: white;
+    text-align: justify;
+    justify-content: center;
+
+}
+
+
+
+.objetivos-ingles {
+  margin: 40px auto;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.7;
+  color: #222;
+}
+
+.objetivos-ingles h2 {
+  text-align: center;
+  color: #2b5fad;
+  margin-bottom: 25px;
+}
+
+.objetivo {
+  margin-bottom: 30px;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.objetivo h3 {
+  color: #1e4f8c;
+  margin-bottom: 10px;
+}
+
+.objetivo p {
+  text-align: justify;
+}
